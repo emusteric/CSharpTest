@@ -38,3 +38,5 @@ Random randomNumbers = new Random();
 int number1 = randomNumbers.Next(0, 4);
 Console.WriteLine(number1);
 
+string pathToDesktop = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+Console.WriteLine("Path to Desktop = " + pathToDesktop);
