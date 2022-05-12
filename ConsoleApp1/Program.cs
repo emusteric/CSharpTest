@@ -33,7 +33,7 @@ bool jedi = false;
 Console.WriteLine(sith);
 Console.WriteLine(jedi);
 
-//randon
+//random
 Random randomNumbers = new Random();
 int number1 = randomNumbers.Next(0, 4);
 Console.WriteLine(number1);
