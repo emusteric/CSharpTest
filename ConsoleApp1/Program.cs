@@ -40,3 +40,13 @@ Console.WriteLine(number1);
 
 string pathToDesktop = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
 Console.WriteLine("Path to Desktop = " + pathToDesktop);
+
+string text = "This is a fun day without smoking";
+Console.WriteLine("Original text: " + text);
+Console.WriteLine("Number of characters: " + text.Length);
+Console.WriteLine("In Uppercase: " + text.ToUpper());
+Console.WriteLine("Does is contain the word last: " + text.Contains("last"));
+
+int number = 1234;
+string numberAsText = number.ToString();
+Console.WriteLine(numberAsText);
